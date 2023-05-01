@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import styles from "./Navbar.module.css";
 import { Link } from "react-scroll";
+
 const Navbar = () => {
   return (
     <div>
@@ -108,6 +109,27 @@ const Navbar = () => {
             </Col>
           </Row>
         </Container>
+      </div>
+      <div className={styles.logoDiv}>
+        <h1 className={styles.hotelLogo}>HOVERLA HOTEL</h1>
+        <h3 className={styles.hotelSubText}>
+          The best place to spend your time in perfect way
+        </h3>
+      </div>
+      <div>
+        <a
+          href="https://www.youtube.com/watch?v=Og5se7WJh2Q&ab_channel=SteelEggs"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.playVideoBtn}
+        >
+          <img
+            className={styles.playIcon}
+            src={window.location.origin + "/play.png"}
+            alt="img"
+          />
+          PLAY VIDEO
+        </a>
       </div>
     </div>
   );
