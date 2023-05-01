@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import styles from "./Navbar.module.css";
-
+import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div>
@@ -32,6 +32,83 @@ const Navbar = () => {
         </Row>
       </Container>
       <div className={styles.line}></div>
+      <div>
+        <Container>
+          <Row className="justify-content-center">
+            <Col className="d-flex justify-content-center">
+              {" "}
+              <Link
+                href="#link"
+                style={{
+                  width: "94px",
+                  color: "black",
+                  fontSize: "20px",
+                  fontWeight: "bold",
+                  textDecoration: "none",
+                  marginTop: "10px",
+                }}
+              >
+                <Link to="hotel" spy={true}>
+                  Hotel
+                </Link>
+              </Link>
+            </Col>
+            <Col className="d-flex justify-content-center">
+              {" "}
+              <Link
+                href="#link"
+                style={{
+                  width: "94px",
+                  color: "black",
+                  fontSize: "20px",
+                  fontWeight: "bold",
+                  textDecoration: "none",
+                  marginTop: "10px",
+                }}
+              >
+                <Link to="restaurant" spy={true}>
+                  Restaurant
+                </Link>
+              </Link>
+            </Col>
+            <Col className="d-flex justify-content-center">
+              <Link
+                href="#link"
+                style={{
+                  width: "94px",
+                  color: "black",
+                  fontSize: "20px",
+                  fontWeight: "bold",
+                  textDecoration: "none",
+                  marginTop: "10px",
+                }}
+              >
+                <Link to="bar" spy={true}>
+                  Bar
+                </Link>
+              </Link>
+            </Col>
+            <Col className="d-flex justify-content-center">
+              {" "}
+              <Link
+                href="#link"
+                style={{
+                  width: "94px",
+                  color: "black",
+                  fontSize: "20px",
+                  fontWeight: "bold",
+                  textDecoration: "none",
+                  marginTop: "10px",
+                }}
+              >
+                <Link to="contact" spy={true}>
+                  Contact
+                </Link>
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 };
