@@ -1,0 +1,7 @@
+.mainDiv {
+  width: 100%;
+  height: 600px;
+  background-image: url("/public/rostyslav-savchyn-4nAh6u7dD1g-unsplash.jpg");
+  background-size: cover; /* This makes the background image cover the entire div */
+  background-position: center; /* This centers the background image within the div */
+}
