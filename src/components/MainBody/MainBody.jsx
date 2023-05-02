@@ -40,6 +40,7 @@ const MainBody = () => {
       <h2 className={styles.heading}>OUR ROOMS</h2>
       <CardCarousel cards={cards} />
       <Restaurant />
+      <MainBody />
     </div>
   );
 };
