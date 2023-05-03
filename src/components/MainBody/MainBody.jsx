@@ -1,4 +1,7 @@
+import Bar from "../Bar/Bar";
 import CardCarousel from "../CardCarousel/CardCarousel";
+import Contact from "../Contact/Contact";
+import Restaurant from "../Restaurant/Restaurant";
 import styles from "./MainBody.module.css";
 
 const MainBody = () => {
@@ -38,6 +41,9 @@ const MainBody = () => {
     <div>
       <h2 className={styles.heading}>OUR ROOMS</h2>
       <CardCarousel cards={cards} />
+      <Restaurant />
+      <Bar />
+      <Contact />
     </div>
   );
 };

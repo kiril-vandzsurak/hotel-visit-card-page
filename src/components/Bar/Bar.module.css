@@ -1,7 +1,58 @@
 .mainPic {
   width: 100%;
+  height: 400px;
+  background-image: url("/public/bar.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 200px;
+}
+
+.underPic {
+  width: 100%;
   height: 600px;
-  background-image: url("/public/rostyslav-savchyn-4nAh6u7dD1g-unsplash.jpg");
-  background-size: cover; /* This makes the background image cover the entire div */
-  background-position: center; /* This centers the background image within the div */
+  background-color: #9b5831;
+  position: relative;
+}
+
+.infoBlock {
+  width: 392px;
+  height: 638px;
+  background-color: #202020;
+  position: relative;
+  top: -686px;
+  left: 102px;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  padding-top: 26px;
+  font-size: 54px;
+}
+
+.subHeader {
+  text-align: center;
+  color: #8b8485;
+}
+
+.text {
+  color: #b59683;
+  width: 80%;
+  text-align: center;
+  margin-inline: auto;
+  font-size: 22px;
+  margin-top: 32px;
+}
+
+.barPhoto {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+
+.picDiv {
+  position: absolute;
+  left: 55%;
+  transform: translateX(-23%);
+  top: 20px;
 }
