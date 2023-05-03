@@ -2,7 +2,7 @@ import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <div className={styles.bottomPart}>
+    <div className={styles.bottomPart} id="contact">
       <div style={{ marginLeft: "50px", paddingTop: "29px" }}>
         <span>Hotel Hoverla, Yaremche</span>
         <br />

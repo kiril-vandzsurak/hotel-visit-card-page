@@ -8,37 +8,42 @@ const MainBody = () => {
   const cards = [
     {
       id: 1,
-      title: "Card 1",
+      title: "Standart",
       image: "/pexels-pixabay-164595.jpg",
-      description: "This is card 1",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id repellendus sed",
     },
     {
       id: 2,
-      title: "Card 2",
+      title: "Semi-lux",
       image: "/pexels-pixabay-262048.jpg",
-      description: "This is card 2",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id repellendus sed",
     },
     {
       id: 3,
-      title: "Card 3",
+      title: "Lux",
       image: "/pexels-pixabay-237371.jpg",
-      description: "This is card 3",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id repellendus sed",
     },
     {
       id: 4,
-      title: "Card 4",
+      title: "Presidental",
       image: "/pexels-pixabay-276671.jpg",
-      description: "This is card 4",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id repellendus sed",
     },
     {
       id: 5,
-      title: "Card 5",
+      title: "Imperial",
       image: "/pexels-suhel-vba-3659683.jpg",
-      description: "This is card 5",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id repellendus sed",
     },
   ];
   return (
-    <div>
+    <div id="hotel">
       <h2 className={styles.heading}>OUR ROOMS</h2>
       <CardCarousel cards={cards} />
       <Restaurant />

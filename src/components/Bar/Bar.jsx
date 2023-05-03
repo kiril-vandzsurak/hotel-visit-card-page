@@ -2,7 +2,7 @@ import styles from "./Bar.module.css";
 
 const Bar = () => {
   return (
-    <div style={{ height: "1000px" }}>
+    <div style={{ height: "1000px" }} id="bar">
       <div className={styles.mainPic}></div>
       <div className={styles.underPic}>
         <div className={styles.picDiv}>

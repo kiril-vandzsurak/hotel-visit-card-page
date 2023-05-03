@@ -55,7 +55,7 @@ const CardCarousel = ({ cards }) => {
   };
 
   return (
-    <div style={{ width: "90%", marginInline: "auto" }}>
+    <div style={{ width: "90%", marginInline: "auto", marginBottom: "70px" }}>
       <Slider {...settings}>
         {cards.map((card) => (
           <div key={card.id}>

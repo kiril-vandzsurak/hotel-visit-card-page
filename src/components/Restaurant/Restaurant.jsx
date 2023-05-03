@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Restaurant = () => {
   return (
-    <div>
+    <div id="restaurant">
       <div className={styles.restaurantDiv}>
         <div className={styles.bakcground}>
           <h2 className={styles.h2Text}>WELCOME TO OUR RESTAURANT</h2>
